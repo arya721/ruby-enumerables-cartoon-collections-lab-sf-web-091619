@@ -22,3 +22,4 @@ def long_planeteer_calls(calls)
     contains_cheese.find do |contains_cheese|
       cheese_types.include?(contains_cheese)
     end
+  end
