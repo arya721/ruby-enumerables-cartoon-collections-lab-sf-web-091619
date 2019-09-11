@@ -3,9 +3,8 @@ def roll_call_dwarves(dwarfs)
     puts "#{index + 1}. #{name}" }
 end
 
-
 def summon_captain_planet(veggies)
-  veggies.map do |names| 
+  veggies.map do |names|
     "#{names.capitalize}!"
   end
 end
